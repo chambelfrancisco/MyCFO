@@ -164,6 +164,9 @@ a { color: var(--blue-600); }
 .footer-links { display: flex; gap: 16px; }
 .footer-links a { text-decoration: none; color: var(--grey-900); font-size: 0.92rem; font-weight: 500; }
 .copyright { margin: 0; text-align: right; font-size: 0.88rem; color: var(--grey-600); }
+.footer-funding { margin-top: 24px; padding-top: 20px; border-top: 1px solid #e6ebf2; display: flex; flex-direction: column; gap: 10px; align-items: flex-start; }
+.funding-logos { width: 100%; max-width: 640px; height: auto; display: block; background: #fff; }
+.funding-text { margin: 0; font-size: 0.85rem; font-weight: 600; color: var(--grey-600); }
 
 /* Responsive */
 @media (max-width: 900px) {
